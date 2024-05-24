@@ -1,0 +1,57 @@
+.container{
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(202, 198, 198, 0.875);
+    margin-top: 100px;
+    border-radius: 30px;
+}
+
+.register p{
+    color: green;
+    font-weight: bold;
+}
+
+.forms label{
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.forms input[type="text"],
+.forms input[type="password"]{
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.forms .error{
+    color: red;
+    margin-top: 5px;
+}
+
+.forms button{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.forms button:hover{
+    background-color: #0056b3;
+}
+
+.register{
+    margin-top: 20px;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 20px;
+}
